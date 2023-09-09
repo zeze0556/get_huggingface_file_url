@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         get_huggingface_file_url
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @updateURL    https://github.com/zeze0556/get_huggingface_file_url/raw/main/src/huggingface_copy.js
 // @description  获取huggingface.co仓库中所有下载的url
 // @author       --==RIX==--
