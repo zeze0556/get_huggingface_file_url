@@ -20,11 +20,11 @@
         var urlsToCopy = [];
         matchedElements.each(function() {
             var url = $(this).attr('href'); // 假设URL存储在href属性中
-            urlsToCopy.push(url);
+            urlsToCopy.push("https://huggingface.co/"+url);
         });
 
         // 将URL数组转换为文本
-        var urlsText = "https://huggingface.co/"+urlsToCopy.join('\n'); // 每个URL之间使用换行符分隔
+        var urlsText = urlsToCopy.join('\n'); // 每个URL之间使用换行符分隔
 
         // 创建一个文本区域元素并将文本添加到其中
         var textArea = document.createElement('textarea');
