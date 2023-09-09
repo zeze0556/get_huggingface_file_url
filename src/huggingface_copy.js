@@ -21,7 +21,7 @@
         var urlsToCopy = [];
         matchedElements.each(function() {
             var url = $(this).attr('href'); // 假设URL存储在href属性中
-            urlsToCopy.push("https://huggingface.co/"+url);
+            urlsToCopy.push("https://huggingface.co"+url);
         });
 
         // 将URL数组转换为文本
